@@ -1,10 +1,11 @@
 {
-  "name": "one-dark-ui",
+  "name": "one-outlander-ui",
+  "author": "Filip Weiss <me@fiws.net>",
   "theme": "ui",
-  "version": "0.3.0",
-  "description": "Atom One dark UI theme",
+  "version": "0.0.1",
+  "description": "One outlander UI theme",
   "license": "MIT",
-  "repository": "https://github.com/atom/one-dark-ui",
+  "repository": "https://github.com/fiws/one-outlander-ui",
   "engines": {
     "atom": ">0.40.0"
   }
