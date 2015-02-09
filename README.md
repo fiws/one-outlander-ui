@@ -6,8 +6,6 @@ Basically a super simple merge
 from [outlander-ui](https://github.com/mthadley/outlander-ui) and [one-dark-ui](https://github.com/atom/one-dark-ui).
 I just copy pasted variables.
 
-### Install
+## License
 
-This theme is installed by default with Atom and can be activated by going to
-the __Settings > Themes__ section and selecting
-it from the __UI Themes__ drop-down menu.
+MIT
