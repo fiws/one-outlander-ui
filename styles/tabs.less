@@ -77,16 +77,7 @@
       border-right-color: @tab-border-color;
     }
 
-    &:hover .close-icon {
-      color: @text-color;
-
-      &:hover {
-        color: inherit;
-      }
-    }
-
     & .close-icon {
-      color: @text-color;
       transform: scale(1);
     }
 
@@ -124,6 +115,14 @@
     &:before,
     &:after {
       visibility: hidden;
+    }
+  }
+
+  .tab.active[data-type="TextEditor"] {
+    color: @tab-text-color-editor;
+    background-color: @tab-background-color-editor;
+    &:after {
+      border-bottom-color: @tab-background-color-editor;
     }
   }
 
@@ -167,7 +166,6 @@
   left: 0;
   width: 2px;
   height: @tab-height + @tab-bottom-border-height;
-  border-bottom: 1px solid fade(@tab-border-color, 60%);
   background: @base-accent-color;
   transform: scaleY(0);
   transition: transform .08s;
